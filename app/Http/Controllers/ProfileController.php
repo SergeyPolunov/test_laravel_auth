@@ -14,8 +14,8 @@ class ProfileController extends Controller
     public function update(ProfileUpdateRequest $request)
     {
         // Task: fill in the code here to update name and email
-        // Also, update the password if it is set qwerty
-ewdqe
+        // Also, update the password if it is set
+
         return redirect()->route('profile.show')->with('success', 'Profile updated.');
     }
 }
