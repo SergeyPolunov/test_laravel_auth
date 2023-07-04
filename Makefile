@@ -8,4 +8,4 @@ down: ## into container
 
 .PHONY: bash
 bash: ## into container
-	docker exec -ti test_laravel_blade_php bash
+	docker exec -ti test_laravel_auth_php bash
